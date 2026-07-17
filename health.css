@@ -1626,6 +1626,24 @@ footer {
     font-weight: bold !important;
 }
 
+.icon-needle,
+.icon-onde {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-size: contain;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+
+.icon-needle::before,
+.icon-onde::before {
+    content: none !important;
+    display: none !important;
+}
+
 @media (max-width: 480px) {
     .logo-kine {
         margin-left: auto;
